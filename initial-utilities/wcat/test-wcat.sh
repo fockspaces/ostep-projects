@@ -6,5 +6,6 @@ if ! [[ -x wcat ]]; then
 fi
 
 ../../tester/run-tests.sh $*
+read -p "Press [Enter] key to start backup..."
 
 
