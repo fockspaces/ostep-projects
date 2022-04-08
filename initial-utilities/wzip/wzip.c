@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
 
     size_t size = 0;
     for (int i = 1; i < argc; ++i) {
-        // For each file get size
+        // For each file get ksize
         FILE *stream = open(argv[i], "r");
         size += fsize(stream);
         fclose(stream);
